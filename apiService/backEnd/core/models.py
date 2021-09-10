@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class consultaClinica(models.Model):
+class novoPaciente(models.Model):
     nome = models.CharField(max_length=200)
     sobreNome = models.CharField(max_length=200)
     datadeNascimento = models.DateField()
@@ -13,3 +13,6 @@ class consultaClinica(models.Model):
     sus = models.CharField(max_length=15)
     telefone = models.CharField(max_length=200)
     email = models.EmailField()
+    
+    def __str__(self):
+        return self.nome + " " + self.sobreNome + " - SUS:  " + self.sus
