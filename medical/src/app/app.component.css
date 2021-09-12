@@ -1,0 +1,13 @@
+.custonNav{
+
+  padding: 20px 0;
+}
+.custonNav img{
+  width: 200px;
+}
+
+footer{
+  background-color: var(  --secondary);
+  color:#fff;
+  height: 300px;
+}

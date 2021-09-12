@@ -96,11 +96,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/bootstrap/dist/css/bootstrap.min.css",
-              "src/font-awesome/css/font-awesome.min.css"
+              "src/styles.css"
+
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           }
         }
       }
