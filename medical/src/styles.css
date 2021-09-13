@@ -22,10 +22,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
- font-family: 'Noto Sans JP', sans-serif;
 	vertical-align: baseline;
-
-
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -34,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-
 }
 ol, ul {
 	list-style: none;
@@ -51,11 +47,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-:root{
-  --pymary: #7FBA2B;
-  --secondary:#06111F;
-  --third:#EDEDED;
+/* --------------------------------------------*/
+body{
+  font-family: 'Noto Sans JP', sans-serif;
 }
-
-
-
+.custonNav img {
+  width: 200px;
+}
